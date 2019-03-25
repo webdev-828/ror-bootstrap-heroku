@@ -1,0 +1,25 @@
+AllCops:
+  DisplayCopNames: true
+  TargetRailsVersion: 4.2
+  TargetRubyVersion: 2.4
+  Exclude:
+    - 'bin/*'
+    - 'db/**/*'
+    - 'vendor/bundle/**/*'
+
+Metrics/LineLength:
+  Enabled: false
+
+Metrics/MethodLength:
+  Exclude:
+    - 'spec/**/*'
+
+Metrics/ModuleLength:
+  Exclude:
+    - 'spec/**/*'
+
+Rails:
+  Enabled: true
+
+Style/Documentation:
+  Enabled: false
